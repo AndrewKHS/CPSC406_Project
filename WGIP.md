@@ -16,7 +16,7 @@ Here's a high-level overview of how we could implement this:
  4 Modify the server-side search code to check for "stop" messages at each step of the search. If it receives a "stop"
    message, stop the search.
 
-Pseudo-code for our modification.
+#Pseudo-code for our modification.
 
 In server/crawler.py:
 
@@ -58,8 +58,3 @@ On the client side:
      // Send a POST request to the /stop_search route
      fetch('/stop_search', {method: 'POST'});
  });
-
-We are implementing a feature to allow users to stop a search operation in progress on a Wikipedia.
-This involves setting up a WebSocket server to enable real-time, two-way communication between the client and server.
-The client can send a "stop" message to the server at any time, and the server checks for this message during the search
-operation. If a "stop" message is received, the search operation is halted.
