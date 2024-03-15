@@ -2,6 +2,10 @@
 
 Authors: [Jooshin Kim,Andrew Kwon]
 
+# Reflection on Thursday Lecture
+After we talked with professor, we decided to work on the basic websocket before we actually work on our project.
+We need to understand how to use websocket and how it works. We are planning to attend office hour and start the basic of websocket. That is our first milestone.
+
 ## Improvement
 
 Right now the WikipediaGame doesn't end until the time limit. There is no "stop" button that user can interact with program during searching.
