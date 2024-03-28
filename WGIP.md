@@ -2,6 +2,12 @@
 
 Authors: [Jooshin Kim,Andrew Kwon]
 
+# Milestones
+4/3: Understand the concept of websocket and research on how to use it. Write report about it.
+4/10: Discuss with Dr. Kurz about it as he told us to do. Practice it with simple program before implementing on WikipediaGame.
+4/24: Implement it into WikipediaGame and debugging.
+
+
 # Reflection on Thursday Lecture
 After we talked with professor, we decided to work on the basic websocket before we actually work on our project.
 We need to understand how to use websocket and how it works. We are planning to attend office hour and start the basic of websocket. That is our first milestone.
