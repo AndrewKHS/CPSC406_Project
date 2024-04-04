@@ -9,6 +9,22 @@ Authors: [Jooshin Kim,Andrew Kwon]
 
 4/24: Implement it into WikipediaGame and debugging.
 
+# Short report on websocket for WikipediaGame 4/3/2024
+WebSockets are a protocol that allows for real-time, two-way communication between a client and a server over a single, long-lived connection.
+In other words, WebSockets allow for an interactive communication session between the user's browser and the server, enabling you to send messages to the server (like a stop command) and handle them in real-time.
+
+Server
+1. We need to set up a Websocket server.
+2. Define a route that upgrades HTTP requests to WebSocket requests.
+3. On a new WebSocket connection, assign a unique session ID to each game or user.
+4. Listen for messages from the client, such as a "stop" command.
+5. Pathfinding logic should periodically check for a "stop" flag that can be set when a WebSocket message is received. Upon receiving a stop message, halt the pathfinding process and optionally return the current path or state.
+
+Client
+1. When the game starts, open a WebSocket connection to the server using the WebSocket API. Ensure that the connection remains open during the game session.
+2. Implement a UI element (e.g., a stop button). When clicked, send a message over the WebSocket connection to the server indicating that the pathfinding should be stopped.
+Handle any acknowledgments or messages from the server, such as confirmation of stopping the process.
+3. Listen for messages from the server to receive commands or updates, such as halting the pathfinding process.
 
 # Reflection on Thursday Lecture
 After we talked with professor, we decided to work on the basic websocket before we actually work on our project.
