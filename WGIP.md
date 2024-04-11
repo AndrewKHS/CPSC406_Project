@@ -7,7 +7,11 @@ Authors: [Jooshin Kim,Andrew Kwon]
 
 4/10: Get feedback on our report and discuss with Dr. Kurz about it as he told us to do. Practice it with simple program before implementing on WikipediaGame.
 
-4/24: Implement it into WikipediaGame and debugging.
+5/8: Implement it into WikipediaGame and debugging.
+
+# Feedback from Dr. Kurz 4/9
+Don't make just normal stop button.
+Use websocket, find midpoint between start and end.
 
 # Short report on websocket for WikipediaGame 4/3/2024
 WebSockets are a protocol that allows for real-time, two-way communication between a client and a server over a single, long-lived connection.
