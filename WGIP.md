@@ -2,6 +2,14 @@
 
 Authors: [Jooshin Kim,Andrew Kwon]
 
+# New Project 
+We decided to change our project. 
+Our new idea is to find midpoint of start and end page. 
+We are using world2vec to have the vectors correspond to start and end. In the vector, we can calculate the midpoint vector which will be correspond with midpoint of two pages (start, end).
+If the midpoint vector does not correspond with any page in Wikipedia, we want to find nearest vector which is the actual Wikipedia page.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Milestones
 4/3: Understand the concept of websocket and research on how to use it. Write report about it.
 
