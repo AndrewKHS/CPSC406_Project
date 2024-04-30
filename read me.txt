@@ -1,0 +1,15 @@
+read me
+
+server
+	-crawler.py
+	-server.py
+	-word2vec_training
+client
+	-index
+	-main
+
+
+how to run
+
+source setup.sh
+python server.py
