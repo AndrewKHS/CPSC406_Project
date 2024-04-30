@@ -1,5 +1,6 @@
 read me
 
+folder
 server
 	-crawler.py
 	-server.py
@@ -9,7 +10,6 @@ client
 	-main
 
 
-how to run
-
-source setup.sh
-python server.py
+how to run in ubuntu
+1. source setup.sh
+2. python server.py
