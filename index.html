@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Wikipedia Game</title>
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #midpoint-result { margin-top: 20px; padding: 10px; border: 1px solid black; display: none; }
+        #wikipedia-link { display: none; }
+    </style>
 </head>
 <body>
     <h1>Wikipedia Game</h1>
-    Enter a start page such as <a href="https://en.wikipedia.org/wiki/Martin_Wirsing">Martin Wirsing</a> and a finish page such as <a href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert</a> and click "Find Path" to find the shortest path between the two pages.<br><br>
+    <p>Enter keywords related to start and finish pages to find the conceptual midpoint based on Word2Vec similarities.</p>
     <form id="wiki-form">
-        <label for="start-page">Start Page URL:</label><br>
-        <input type="url" id="start-page" name="start-page" pattern="https?://.*\.wikipedia\.org/.*" required style="width: 80%;" value="https://en.wikipedia.org/wiki/Martin_Wirsing"><br>
-        <label for="finish-page">Finish Page URL:</label><br>
-        <input type="url" id="finish-page" name="finish-page" pattern="https?://.*\.wikipedia\.org/.*" required style="width: 80%;" value="https://en.wikipedia.org/wiki/David_Hilbert"><br>
-        <input type="submit" value="Find Path">
-        <button type="button" id="mid-point">Mid Point</button>
+        <label for="start-page">Start Keyword:</label><br>
+        <input type="text" id="start-page" name="start-page" required style="width: 80%;">
+        <br><br>
+        <label for="finish-page">Finish Keyword:</label><br>
+        <input type="text" id="finish-page" name="finish-page" required style="width: 80%;">
+        <br><br>
+        <button type="button" id="mid-point">Find Mid Point</button>
     </form>
-    <div id="path"></div>
-    <div id="logs" style="width: 80%; height: 200px; overflow: auto; border: 1px solid black; margin-top: 20px;"></div>
-    <div id="stats" style="width: 80%; margin-top: 20px;"></div>
-
-    <div>
-        <p>
-            <a href="https://github.com/alexhkurz/WikipediaGame" target="_blank">
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="20" height="20">
-            </a>
-        </p>
+    <div id="midpoint-result">
+        <p id="start-summary"></p>
+        <p id="end-summary"></p>
+        <a id="wikipedia-link" href="#" target="_blank">Visit Wikipedia</a>
     </div>
 
-    <script src="/static/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
