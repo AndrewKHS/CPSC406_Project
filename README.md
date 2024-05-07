@@ -1,9 +1,3 @@
-A description of your project, including of the algorithms you implemented.
-
-installation instructions that enable me to run and test your project.
-
-A description of how you tested your project and how I can reproduce your test results.
-
 # Description of our project
 
 Our project is to make the WikipediaGame to find the midpoint of the start and end page.
