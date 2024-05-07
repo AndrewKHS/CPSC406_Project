@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #midpoint-result { margin-top: 20px; padding: 10px; border: 1px solid black; display: none; }
+        #wikipedia-link { display: none; }
+    </style>
+</head>
+<body>
+    <h1>Wikipedia Game</h1>
+    <p>Enter keywords related to start and finish pages to find the conceptual midpoint based on Word2Vec similarities.</p>
+    <form id="wiki-form">
+        <label for="start-page">Start Keyword:</label><br>
+        <input type="text" id="start-page" name="start-page" required style="width: 80%;">
+        <br><br>
+        <label for="finish-page">Finish Keyword:</label><br>
+        <input type="text" id="finish-page" name="finish-page" required style="width: 80%;">
+        <br><br>
+        <button type="button" id="mid-point">Find Mid Point</button>
+    </form>
+    <div id="midpoint-result">
+        <p id="start-summary"></p>
+        <p id="end-summary"></p>
+        <a id="wikipedia-link" href="#" target="_blank">Visit Wikipedia</a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
