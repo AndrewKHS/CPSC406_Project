@@ -16,9 +16,13 @@ After that we calculate the mid vector which is the mid page between start and e
 # Installation instruction
 Need to download our source code and have the right folder direction
 
+install python 3.10
+
+cd server
+
 source setup.sh
 
-python server.py
+python3.10 server.py
 
 # Description of how we tested our project
 We tested with start page as cat and end page as dog. The output of our program is wikipedia page of dog.
