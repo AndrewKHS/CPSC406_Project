@@ -6,4 +6,5 @@ itsdangerous==2.1.2
 requests==2.28.1
 beautifulsoup4==4.11.1
 Flask-Limiter==2.0.2
-tensorflow==2.8.0 
+gensim
+scipy==1.8.1

@@ -1,9 +1,3 @@
-A description of your project, including of the algorithms you implemented.
-
-installation instructions that enable me to run and test your project.
-
-A description of how you tested your project and how I can reproduce your test results.
-
 # Description of our project
 
 Our project is to make the WikipediaGame to find the midpoint of the start and end page.
@@ -22,9 +16,13 @@ After that we calculate the mid vector which is the mid page between start and e
 # Installation instruction
 Need to download our source code and have the right folder direction
 
+install python 3.10
+
+cd server
+
 source setup.sh
 
-python server.py
+python3.10 server.py
 
 # Description of how we tested our project
 We tested with start page as cat and end page as dog. The output of our program is wikipedia page of dog.
