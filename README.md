@@ -32,6 +32,7 @@ We also tested with start page as fish and end page as cat. The output of our pr
 We have small dataset which contains so few words that the mid vector page does not show up. So sometimes, we get the start page and our mid vector which considered as the closest wikipedia page with the mid vector.
 
 # Limitation and Future work
+We made a project that uses Word2vec to get the position of the vector of the words in the database and find the midpoint between those two vectors. Our project is that the big database we planned was not downloaded to the computer, so we used a database with only basic words. Our database has fewer words, so the midpoint word usually is the Start Keyword or Finish Keyword that is close to the midpoint (this means there is no middle word between the two words in the database). That does not mean our project is not working.
 
 As we mentioned above, our current database has few words that we cannot load wide range of words for our output. It is going to be solved if we download the whole database for Wikipedia.
 For future work, our current output is just a midpoint between start and end. 
