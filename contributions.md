@@ -3,7 +3,7 @@ We made a project that uses Word2vec to get the position of the vector of the wo
 Example. Start Keyword "nuclear" and Finish Keyword "war". Result is "war"
 
 
-If you put the Start Keyword as “uncle” and the Finish Keyword as “fish”, you will get a sheep page. That means that the closest page to the median vector value of “uncle” and “fish” is the “sheep” page.
+If you put the Start Keyword as “uncle” and the Finish Keyword as “fish”, you will get a "sheep" page. That means that the closest page to the median vector value of “uncle” and “fish” is the “sheep” page.
 Also, if you put the Start Keyword as “uncle” and the Finish Key Keyword as “chicken”, you will get a “girlfriend” page.
 
 More examples.
