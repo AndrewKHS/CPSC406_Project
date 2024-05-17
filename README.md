@@ -13,7 +13,7 @@ We used word2vec to convert the start and end page into vector.
 
 After that we calculate the mid vector which is the mid page between start and end.
 
-# Installation instruction
+# Installation and how to run our program instruction
 Need to download our source code and have the right folder direction
 
 install python 3.10
