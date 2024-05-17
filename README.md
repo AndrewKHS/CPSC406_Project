@@ -38,4 +38,4 @@ As we mentioned above, our current database has few words that we cannot load wi
 For future work, our current output is just a midpoint between start and end. 
 If we successfully implement the whole Wikipedia database in future, we can find all the mid page in Wikipedia and can go beyond our current situation.
 
-We can use our midpoint algorithm to develope current route finding algorithm.
+We can use our midpoint algorithm to develope current route finding algorithm. We can use the midpoint that we first found as second endpoint and find another midpoint from original start page and our new endpage (midpage that we found). If we keep repeating this process, we will find the shortest path easily and quickly.
