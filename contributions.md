@@ -1,4 +1,4 @@
-We made a project that uses Word2vec to get the position of the vector of the words in the database and find the midpoint between those two vectors. Our project is that the big database we planned was not downloaded to the computer, so we used a database with only basic words. Our database has fewer words, so the midpoint word usually is the Start Keyword or Finish Keyword that is close to the midpoint(this means there is no middle word between the two words). That does not mean our project is not working.
+We made a project that uses Word2vec to get the position of the vector of the words in the database and find the midpoint between those two vectors. Our project is that the big database we planned was not downloaded to the computer, so we used a database with only basic words. Our database has fewer words, so the midpoint word usually is the Start Keyword or Finish Keyword that is close to the midpoint (this means there is no middle word between the two words in the database). That does not mean our project is not working.
 
 Example. Start Keyword "nuclear" and Finish Keyword "war". Result is "war"
 
