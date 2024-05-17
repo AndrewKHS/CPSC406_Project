@@ -6,9 +6,9 @@ Example. Start Keyword "nuclear" and Finish Keyword "war". Result is "war"
 If you put the Start Keyword as “uncle” and the Finish Keyword as “fish”, you will get a "sheep" page. That means that the closest page to the median vector value of “uncle” and “fish” is the “sheep” page.
 Also, if you put the Start Keyword as “uncle” and the Finish Key Keyword as “chicken”, you will get a “girlfriend” page.
 
-More examples.
+More examples. Order below is "Start page" and "End page" = "mid page"
 
-“Uncle” and “whale” = “aunt”,
+“uncle” and “whale” = “aunt”,
 
 “friend” and “fish” = “farmer”,
 
