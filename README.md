@@ -30,3 +30,11 @@ We tested with start page as cat and end page as dog. The output of our program 
 We also tested with start page as fish and end page as cat. The output of our program is wikipedia page of fish.
 
 We have small dataset which contains so few words that the mid vector page does not show up. So sometimes, we get the start page and our mid vector which considered as the closest wikipedia page with the mid vector.
+
+# Limitation and Future work
+
+As we mentioned above, our current database has few words that we cannot load wide range of words for our output. It is going to be solved if we download the whole database for Wikipedia.
+For future work, our current output is just a midpoint between start and end. 
+If we successfully implement the whole Wikipedia database in future, we can find all the mid page in Wikipedia and can go beyond our current situation.
+
+We can use our midpoint algorithm to develope current route finding algorithm.
