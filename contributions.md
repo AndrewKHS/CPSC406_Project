@@ -12,7 +12,7 @@ More examples. Order below is "Start page" and "End page" = "mid page"
 
 “friend” and “fish” = “farmer”,
 
-“mantis” and “dragonfly” = “Kumquat”,
+“mantis” and “dragonfly” = “kumquat”,
 
 “candle” and “squid” = “petal” etc..
 
