@@ -18,7 +18,7 @@ More examples. Order below is "Start page" and "End page" = "mid page"
 
 If you put a word that is not in the database, it shows an error message and does not display the page. For example, the Start Keyword as “polar bear” and Finish Keyword as “fish”.
 
-#Limitation and Future work
+# Limitation and Future work
 
 As we mentioned above, our current database has few words that we cannot load wide range of words for our output. It is going to be solved if we download the whole database for Wikipedia.
 For future work, our current output is just a midpoint between start and end. 
